@@ -1,0 +1,15 @@
+E:\Amnil\Internship\Intern\ConsoleApp\bin\Debug\net7.0\ConsoleApp.exe
+E:\Amnil\Internship\Intern\ConsoleApp\bin\Debug\net7.0\ConsoleApp.deps.json
+E:\Amnil\Internship\Intern\ConsoleApp\bin\Debug\net7.0\ConsoleApp.runtimeconfig.json
+E:\Amnil\Internship\Intern\ConsoleApp\bin\Debug\net7.0\ConsoleApp.dll
+E:\Amnil\Internship\Intern\ConsoleApp\bin\Debug\net7.0\ConsoleApp.pdb
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.AssemblyReference.cache
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfoInputs.cache
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfo.cs
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.CoreCompileInputs.cache
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\ConsoleApp.dll
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\refint\ConsoleApp.dll
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\ConsoleApp.pdb
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\ConsoleApp.genruntimeconfig.cache
+E:\Amnil\Internship\Intern\ConsoleApp\obj\Debug\net7.0\ref\ConsoleApp.dll
