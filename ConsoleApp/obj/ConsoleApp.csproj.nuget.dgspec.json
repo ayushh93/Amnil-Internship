@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Amnil\\Internship\\Intern\\ConsoleApp\\ConsoleApp.csproj": {}
+    "E:\\Amnil\\Intern\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "E:\\Amnil\\Internship\\Intern\\ConsoleApp\\ConsoleApp.csproj": {
+    "E:\\Amnil\\Intern\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Amnil\\Internship\\Intern\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "E:\\Amnil\\Intern\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "E:\\Amnil\\Internship\\Intern\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "E:\\Amnil\\Intern\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Ayush\\.nuget\\packages\\",
-        "outputPath": "E:\\Amnil\\Internship\\Intern\\ConsoleApp\\obj\\",
+        "outputPath": "E:\\Amnil\\Intern\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ayush\\AppData\\Roaming\\NuGet\\NuGet.Config",

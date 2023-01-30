@@ -7,15 +7,9 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApp
 {
-    /// <summary>
-    /// Return the Sum of Two Numbers
-    /// Convert minutes to seconds
-    /// Return next nummber from the integer passed
-    /// Circuit Power Calculator
-    /// Convert Age to Days
-    /// </summary>
     internal class Dayone
     {
+
         public int Sum(int firstNumber, int secondNumber)
         {
             return firstNumber + secondNumber;  
@@ -81,10 +75,13 @@ namespace ConsoleApp
                 return false;
             else
                 return true;
+
+
         }
         public string ReturnSomething(string value)
         {
-            return ("Something"+" "+ $"{value}");
+            // return ("Something" + " " + $"{value}");
+            return $"Something {value}";
         }
         public bool And(bool value1, bool value2)
         {
