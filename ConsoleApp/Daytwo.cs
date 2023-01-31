@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApp
 {
@@ -94,15 +95,17 @@ namespace ConsoleApp
         /// <returns>returns true if the parameters are equal, and false if they are not.</returns>
         public bool CheckEquality(object a , object b)
         {
-            return Object.Equals(a, b);
+            return a.Equals(b);
         }
         public void IndexOfCapitals(string str)
         {
             int[] arr = str.Select((x,i) => i ).Where(i => char.IsUpper(str[i])).ToArray();
-            foreach(int arra in arr)
+            Console.Write("[");
+            foreach (int arra in arr)
             {
                 Console.Write($"{arra},");
             }
+            Console.Write("]");
         }
     }
 }
