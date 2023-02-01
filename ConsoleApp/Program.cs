@@ -1,6 +1,7 @@
 ﻿using ConsoleApp;
 
 //SessionOne();
+//SessionTwo();
 
 //DayThree.ProgramOne();
 //DayThree.ProgramTwo();
@@ -8,7 +9,11 @@
 //DayThree.ProgramFour();
 //DayThree.ProgramFive();
 //DayThree.ProgramSix();
-DayThree.ProgramSeven();
+//DayThree.ProgramSeven();
+
+DayFour.ProgramOne();
+DayFour.ProgramTwo();
+DayFour.ProgramThree();
 static void SessionOne()
 {
     Dayone obj1 = new Dayone();
