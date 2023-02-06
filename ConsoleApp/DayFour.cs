@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using static System.Reflection.Metadata.BlobBuilder;
 
@@ -75,11 +76,28 @@ namespace ConsoleApp
                 Console.WriteLine($"Book: {book.Title} || By:{book.Author} || Published On:{book.Published_Year}");
             }
 
+            //SELECT emp.Id, emp.Name,emp.Email,des.DesignationName,emp.Salary FROM employees as emp JOIN designation AS des ON emp.DesignationId = des.ID ;
 
+            public static void Linqstatement()
+            {
+                //SELECT StudentName, Age, COUNT(Age) As AgeCount FROM Student WHERE StudentName = 'Aakash' GROUP BY StudentName, Age HAVING COUNT(Age) > 1;
 
+                var linqquery = (from student in students where student.studentName == "Aakash"
+                                 group student by new { student.studentName, student.Age } into studentGroup
+                                 where studentGroup.Count() > 1
+                                 select new
+                                 {
+                                     studentName = studentGroup.key.studentName,
+                                     Age = studentGroup.key.Age,
+                                     AgeCount = studentGroup.Count()
+                                 }).ToList();
+
+            }
 
         }
 
 
     }
 }
+
+
