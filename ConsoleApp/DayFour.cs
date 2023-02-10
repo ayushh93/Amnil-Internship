@@ -78,7 +78,7 @@ namespace ConsoleApp
 
             //SELECT emp.Id, emp.Name,emp.Email,des.DesignationName,emp.Salary FROM employees as emp JOIN designation AS des ON emp.DesignationId = des.ID ;
 
-            public static void Linqstatement()
+           /* public static void Linqstatement()
             {
                 //SELECT StudentName, Age, COUNT(Age) As AgeCount FROM Student WHERE StudentName = 'Aakash' GROUP BY StudentName, Age HAVING COUNT(Age) > 1;
 
@@ -92,7 +92,7 @@ namespace ConsoleApp
                                      AgeCount = studentGroup.Count()
                                  }).ToList();
 
-            }
+            }*/
 
         }
 
