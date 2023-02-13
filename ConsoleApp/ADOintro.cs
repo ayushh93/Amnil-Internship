@@ -162,7 +162,7 @@ namespace ConsoleApp
             {
                 Console.WriteLine($"Error Inserting data: {ex.Message}");
             }
+
             }
         }
     }
-}

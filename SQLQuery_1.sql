@@ -63,6 +63,8 @@ UPDATE Interns SET Address="Kathmandu Valley" WHERE ID IN(11,12)
 
 INSERT INTO Interns VALUES(4,'Ayush','Karmacharya',24,'Kathmandu','ayush@email.com')
 
+Update Interns SET Email="test@example.com" WHERE Email IS NULL 
+
 SELECT ID, FirstName, LastName, COUNT(FirstName) as Count FROM Interns GROUP BY FirstName, Lastname HAVING COUNT(Firstname)>1
 
 SELECT  CustomerName, ContactName,Country, OrderID, OrderDate from Customers join Orders on Customers.CustomerID= Orders.CustomerId;
