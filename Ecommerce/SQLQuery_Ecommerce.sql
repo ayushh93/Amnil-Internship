@@ -47,7 +47,9 @@ VALUES
   DELETE FROM Products;
 
   SELECT * FROM Orders;
+
   
+
   SELECT 
   Customers.ID AS CustomerId,
   CONCAT(Customers.FirstName, ' ', Customers.LastName) AS CustomerName,
@@ -58,5 +60,7 @@ VALUES
 FROM Orders
 JOIN Customers ON Orders.Customer_ID = Customers.ID
 JOIN Products ON Orders.Product_ID = Products.ID;
+
+DELETE FROM Orders WHERE Customer_ID = 0;
 
 
