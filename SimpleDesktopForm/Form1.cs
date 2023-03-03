@@ -195,7 +195,7 @@ namespace SimpleDesktopForm
             }
             try
             {
-                using (var context = new FormContext())
+                using (var context = new FormContext()) 
                 {
                     var user = context.users.Find(_id);
                     if (user != null)
